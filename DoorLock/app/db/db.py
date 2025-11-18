@@ -1,7 +1,7 @@
 from pathlib import Path
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine
-from app.config.config import config
+from app.config import config
 
 def build_engine(url: str | None) -> Engine:
     # MariaDB / MySQL via URL (e.g., mysql+pymysql://user:pass@host:3306/db)

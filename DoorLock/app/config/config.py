@@ -2,7 +2,6 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-
 # Load .env from project backend root
 ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
 if ENV_PATH.exists():

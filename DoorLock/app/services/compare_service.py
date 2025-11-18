@@ -2,7 +2,7 @@ import os
 from deepface import DeepFace
 from sqlalchemy import text
 
-from app.config.config import config
+from app.config import config
 from app.db.db import engine
 
 def verify_face(file_bytes: bytes):

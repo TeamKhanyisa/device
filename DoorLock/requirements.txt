@@ -6,3 +6,4 @@ numpy
 SQLAlchemy>=2.0
 python-dotenv
 PyMySQL
+tf-keras

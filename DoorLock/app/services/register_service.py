@@ -5,7 +5,7 @@ import numpy as np
 from sqlalchemy import text
 from deepface import DeepFace
 
-from app.config.config import config
+from app.config import config
 from app.db.db import engine
 
 # step → filename mapping

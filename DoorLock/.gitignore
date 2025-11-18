@@ -129,3 +129,4 @@ logs/
 __pypackages__/
 
 *.pem
+landmarks
