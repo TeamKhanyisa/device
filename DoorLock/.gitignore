@@ -127,3 +127,5 @@ logs/
 
 # Misc
 __pypackages__/
+
+*.pem
